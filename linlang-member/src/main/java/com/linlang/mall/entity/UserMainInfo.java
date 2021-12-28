@@ -16,7 +16,6 @@ public class UserMainInfo {
   private String createtime;
   private String updatetime;
 
-
   public String getCid() {
     return cid;
   }
