@@ -9,17 +9,13 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
-<!--    <groupId>com.linlang</groupId>-->
-    <artifactId>linlang-common</artifactId>
-<!--    <version>1.0-SNAPSHOT</version>-->
-    <description>每一个微服务公共的依赖，bean，工具类等</description>
-
     <properties>
         <java.version>1.8</java.version>
         <ojdbc8.version>12.2.0.1.0</ojdbc8.version>
     </properties>
 
+    <artifactId>linlang-common</artifactId>
+    <description>每一个微服务公共的依赖，bean，工具类等</description>
 
     <dependencies>
         <dependency>
@@ -89,6 +85,17 @@
             <version>2.6</version>
         </dependency>
 
+        <!--集成swagger-->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.9.2</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>2.9.2</version>
+        </dependency>
     </dependencies>
 
 

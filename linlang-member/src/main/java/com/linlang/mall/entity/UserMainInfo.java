@@ -1,19 +1,31 @@
-package com.sample;
+package com.linlang.mall.entity;
 
 import com.baomidou.mybatisplus.annotation.TableName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
+@ApiModel
 @Data
 @TableName(value = "user_main_info")
 public class UserMainInfo {
 
+  @ApiModelProperty("用户ID")
+
   private String cid;
+  @ApiModelProperty("用户名")
   private String username;
+  @ApiModelProperty("用户手机号")
   private String phone;
+  @ApiModelProperty("用户类型")
   private String type;
+  @ApiModelProperty("用户状态")
   private String status;
+  @ApiModelProperty("用户来源渠道")
   private String channel;
+  @ApiModelProperty("用户创建时间")
   private String createtime;
+  @ApiModelProperty("用户信息修改时间")
   private String updatetime;
 
   public String getCid() {

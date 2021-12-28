@@ -4,8 +4,8 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.3.2.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <version>2.0.4.RELEASE</version>
+        <relativePath/>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.linlang.mall</groupId>
@@ -21,40 +21,13 @@
         <hutool.version>5.5.8</hutool.version>
         <weixin-java-miniapp.version>4.0.4.B</weixin-java-miniapp.version>
     </properties>
-<!--    <repositories>-->
 
-<!--        <repository>-->
-<!--            <id>huateng</id>-->
-<!--            <name>huateng</name>-->
-<!--            <url>http://192.168.104.30:8081/nexus/content/groups/public/</url>-->
-<!--        </repository>-->
-<!--        <repository>-->
-<!--            <id>aliyun</id>-->
-<!--            <name>aliyun Repository</name>-->
-<!--            <url>http://maven.aliyun.com/nexus/content/groups/public</url>-->
-<!--            <snapshots>-->
-<!--                <enabled>false</enabled>-->
-<!--            </snapshots>-->
-<!--        </repository>-->
-
-<!--    </repositories>-->
     <modules>
         <module>linlang-common</module>
-        <module>liinlang-member</module>
-        <!--        <module>inzone-auth-server</module>-->
-        <!--        <module>inzone-auth-token</module>-->
-        <!--        <module>inzone-product</module>-->
-        <!--        <module>inzone-search</module>-->
-        <!--        <module>inzone-seckill</module>-->
-        <!--        <module>inzone-third-party</module>-->
-        <!--        <module>inzone-ware</module>-->
+        <module>linlang-member</module>
+
     </modules>
-<!--    <distributionManagement>-->
-<!--        <repository>-->
-<!--            <id>inzone-mall-snapshot</id>-->
-<!--            <url>http://nexus.ecton.choerodon.io/repository/inzone-mall-snapshot/</url>-->
-<!--        </repository>-->
-<!--    </distributionManagement>-->
+
     <dependencyManagement>
 
         <dependencies>
