@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping(value = "/userInfo")
 public class UserInfoController {
 
+<<<<<<< HEAD
     @Autowired
     UserInfoService userInfoService;
 
@@ -35,6 +36,8 @@ public class UserInfoController {
     }
 
     @ApiOperation("查询用户信息")
+=======
+>>>>>>> 50deedd39bcbb986452b5efb888be76b05f36154
     @GetMapping(value = "/queryUSerInfo/{userId}")
     public Result<UserMainInfo> queryUserInfo(@PathVariable("id")String userId){
         UserMainInfo userMainInfo = userInfoService.queryUserInfo(userId);
